@@ -1,0 +1,68 @@
+body {
+    background-color: var(--bs-gray-700);
+}
+.heading {
+    color: var(--bs-light);
+}
+.card {
+    height: 232px;
+    background-color: var(--bs-gray-900);
+}
+.block__img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border: 2px solid var(--bs-gray-500);
+}
+.card-title {
+    color: var(--bs-gray-500);
+}
+.card-text {
+    color: var(--bs-gray-300);
+}
+.btn {
+    width: auto;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.fas {
+    color: var(--bs-gray-900);
+}
+.links {
+    display: flex;
+    justify-content: center;
+}
+.links__item {
+    list-style: none;
+}
+.links__item + .links__item {
+    margin-left: 20px;
+}
+.links__item:hover {
+    background: var(--bs-danger);
+}
+.links__item:hover a i {
+    color: var(--bs-gray-900);
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    padding: 4px;
+}
+.myDiv1 .card-body2, .myDiv2 .card-body2, .myDiv3 .card-body2, .myDiv4 .card-body2, .myDiv5 .card-body2, .myDiv6 .card-body2, .myDiv7 .card-body2, .myDiv8 .card-body2 {
+    display: none;
+}
+.myStyle img, .myStyle .card-body h5, .myStyle .card-body p {
+    display: none;
+}
+.myStyle .card-body2 {
+    display: block;
+}
+.myStyle .btn {
+    position: relative;
+    top: -4px;
+    background: var(--bs-danger);
+}
+.myStyle .btn i {
+    transform: rotate(45deg);
+}
